@@ -3,6 +3,7 @@ import random
 import re
 import threading
 import time
+import cursor
 from urllib.parse import urlencode
 
 import requests
