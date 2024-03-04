@@ -13,7 +13,7 @@ from urllib3.exceptions import InsecureRequestWarning
 
 from pystyle import Col
 from utils.device_gen import Device
-from utils.extra.algorithms.xgorgon import Gorgon
+from utils.extra.algorithms.xgorgon import *
 
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 ssl._create_default_https_context = ssl._create_unverified_context
