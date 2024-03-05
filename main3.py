@@ -4,14 +4,14 @@ import re
 import cursor
 import threading
 import os
-import random
+import rando
+from pystyle import *
+from utils.extra.algorithms.xgorgon import Gorgon
+from utils.device_gen import *
+import time
 from urllib.parse import urlencode
 from http import cookiejar
 from urllib3.exceptions import InsecureRequestWarning
-
-# Assuming utils.extra.algorithms.xgorgon and utils.device_gen are available and functional
-from utils.extra.algorithms.xgorgon import Gorgon
-from utils.device_gen import Device, Applog, Xlog
 
 cursor.hide()
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
